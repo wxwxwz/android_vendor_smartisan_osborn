@@ -7,7 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
-    vendor/smartisan/osborn/proprietary/bin/ifaad:$(TARGET_COPY_OUT_SYSTEM)/bin/ifaad \
+    vendor/smartisan/osborn/proprietary/vendor/bin/ifaad:$(TARGET_COPY_OUT_VENDOR)/bin/ifaad \
     vendor/smartisan/osborn/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/smartisan/osborn/proprietary/vendor/etc/GyroOffset_db.config:$(TARGET_COPY_OUT_VENDOR)/etc/GyroOffset_db.config \
     vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Bluetooth_cal.acdb \
@@ -97,8 +97,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib/libarcsoft_picselfie_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_picselfie_algorithm.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libarcsoft_refocus_sm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_refocus_sm.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libarcsoft_smart_denoise.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_smart_denoise.so \
-    vendor/smartisan/osborn/proprietary/lib/libifaa_daemon.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libifaa_daemon.so \
-    vendor/smartisan/osborn/proprietary/lib/libifaa_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libifaa_jni.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib/libifaa_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libifaa_daemon.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib/libifaa_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libifaa_jni.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmcv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcv.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmcv_sm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcv_sm.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmlib2d_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmlib2d_interface.so \
@@ -116,12 +116,12 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib64/hw/audio.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.sdm660.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
-    vendor/smartisan/osborn/proprietary/lib64/lib_ifaa_tac.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_ifaa_tac.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib64/lib_ifaa_tac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_ifaa_tac.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixfingerprintd_binder.so \
-    vendor/smartisan/osborn/proprietary/lib64/libifaa_daemon.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libifaa_daemon.so \
-    vendor/smartisan/osborn/proprietary/lib64/libifaa_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libifaa_jni.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib64/libifaa_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libifaa_daemon.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib64/libifaa_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libifaa_jni.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/smartisan/osborn/proprietary/vendor/firmware/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn553_fw.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libSonyIMX386PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX386PdafLibrary.so \

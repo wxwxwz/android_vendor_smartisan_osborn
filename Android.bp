@@ -42,7 +42,8 @@ cc_prebuilt_library_shared {
 dex_import {
 	name: "ifaa_fw",
 	owner: "smartisan",
-	jars: ["proprietary/framework/ifaa_fw.jar"],
+	jars: ["proprietary/vendor/framework/ifaa_fw.jar"],
+	soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
